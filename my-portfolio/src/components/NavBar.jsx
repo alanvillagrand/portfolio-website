@@ -6,7 +6,7 @@ import { CgPhone } from "react-icons/cg";
 function NavBar() {
     return(
         <nav>
-            <h1 title='Reload' onClick={() => window.location.reload(true)} className='Logo'>AV</h1>
+            <h1 title='Reload' onClick={() => window.location.reload(true)} className='logo'>AV</h1>
             <ul className="navbar">
                     <a href="#Home"><AiOutlineHome />Home</a>
                     <a href="#About"><BsPerson />About</a>

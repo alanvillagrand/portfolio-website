@@ -1,5 +1,5 @@
 nav {
-    padding: 1px 5%;
+    padding: 1px 7%;
     display: flex;
     justify-content: space-between;
 }
@@ -10,6 +10,13 @@ nav {
     align-items: center;
 }
 
+.logo {
+    font-size: 32px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
 a {
     display: flex;
+    gap: 6px;
 }
