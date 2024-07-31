@@ -6,7 +6,7 @@ import { BsPerson } from "react-icons/bs";
 
 function Home() {
     return(
-        <section className="home">
+        <section id="home">
             <div className="home-text">
                 <h1>Hello There!</h1>
                 <h1>I'm <span className="name">Alan Villagrand</span></h1>
