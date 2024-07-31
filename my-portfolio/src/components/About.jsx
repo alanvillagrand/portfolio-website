@@ -1,5 +1,6 @@
 import '../styles/About.css'
 import { FaFileDownload } from 'react-icons/fa'
+import Skills from './Skills'
 
 function About() {
     return (
@@ -20,6 +21,7 @@ function About() {
                     <span className="button-content">Resume<FaFileDownload /></span>
                 </button>
             </div>
+            <Skills />
         </section>
     );
 }
