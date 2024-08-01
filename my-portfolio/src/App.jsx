@@ -12,6 +12,7 @@ function App() {
       <NavBar />
       <Home />
       <About />
+      <Projects />
     </>
   )
 }
