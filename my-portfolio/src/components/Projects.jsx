@@ -20,6 +20,7 @@ function Projects() {
         <section id="projects">
             <h1 className="projects-heading">My Projects</h1>
             <div className="projects-container">
+                <ProjectCard />
                 <ProjectCard picture={HotelPicture}
                              title="Hotel Reservation System"
                              description={hotelDescription}
