@@ -1,5 +1,6 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { GrMail } from "react-icons/gr"
+import "../styles/Footer.css"
 
 function Footer() {
 

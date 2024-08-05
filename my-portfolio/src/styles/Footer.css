@@ -1,0 +1,33 @@
+footer {
+    width: 90%;
+    height: 40px;
+    margin: 10px auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #444;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer h4 {
+    font-weight: 100;
+}
+
+.footer-links {
+    display: flex;
+    width: 180px;
+    justify-content: space-evenly;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-links a:hover {
+    scale: 1.5;
+    color: rgba(99, 88, 238, 1);
+    transition: all ease-in-out 0.3s;
+}
