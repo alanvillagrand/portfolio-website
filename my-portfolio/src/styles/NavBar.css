@@ -19,4 +19,11 @@ nav {
 a {
     display: flex;
     gap: 6px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+a:hover {
+    color: #3700b3;
 }

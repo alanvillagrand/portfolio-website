@@ -10,17 +10,6 @@ nav, footer {
     color: #ffffff;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 25px;
-    font-weight: bol;
-}
-
-a:hover {
-    color: #3700b3;
-}
-
 button {
     position: relative;
     overflow: hidden;
