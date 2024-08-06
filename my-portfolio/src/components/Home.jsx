@@ -5,6 +5,11 @@ import { CgPhone } from "react-icons/cg";
 import { BsPerson } from "react-icons/bs";
 
 function Home() {
+
+    const navigateTo = (targetId) => {
+        document.getElementById(targetId).scrollIntoView({ behavior: 'smooth'});
+    };
+
     return(
         <section id="home">
             <div className="home-text">
@@ -12,10 +17,10 @@ function Home() {
                 <h1>I'm <span className="name">Alan Villagrand</span></h1>
                 <Type />
                 <div className="home-buttons">
-                    <button>
+                    <button onClick={() => navigateTo('about')}>
                         <span className="button-content">About Me <BsPerson /></span>
                     </button>
-                    <button>
+                    <button onClick={() => navigateTo('contact')}>
                         <span className="button-content">Contact <CgPhone /></span>
                     </button>
                 </div>

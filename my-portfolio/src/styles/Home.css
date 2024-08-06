@@ -3,6 +3,7 @@
     justify-content: space-evenly;
     min-height: 80vh;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .name {
