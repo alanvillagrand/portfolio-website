@@ -7,6 +7,12 @@ function ProjectCard(props) {
     const picture = props.picture;
     const title = props.title;
     const description = props.description;
+    let skillIcons = [];
+    
+    if (props.skills) {
+        const skills = props.skills;
+        skillIcons = skills.map(icon => <li key={icon}><img src={icon} alt=""/></li>)
+    }
 
     const directToLink = (targetLink) => {
         window.open(targetLink, '_blank');
@@ -16,7 +22,10 @@ function ProjectCard(props) {
         <div className="project-card">
             <img className="project-image" src={picture} alt="" />
             <h2 className="project-heading">{title}</h2>
-            <p>{description}</p>
+            {props.skills && (
+                <ul className="skill-icons">{skillIcons}</ul>
+            )}
+            <p className="project-description">{description}</p>
             <div className="project-buttons">
                 {props.githubLink && (
                     <button onClick={() => directToLink(props.githubLink)}>
@@ -36,6 +45,7 @@ function ProjectCard(props) {
 ProjectCard.propTypes = {
     picture: PropTypes.string,
     title: PropTypes.string,
+    skills: PropTypes.arrayOf(PropTypes.string),
     description: PropTypes.string,
     githubLink: PropTypes.string,
     siteLink: PropTypes.string,
