@@ -32,7 +32,7 @@ function Projects() {
                               data.`;
 
     return (
-        <section id="projects">
+        <section id="projects" data-aos='fade-up'>
             <h1 className="projects-heading">My Projects</h1>
             <div className="projects-container">
                 <ProjectCard picture={PortfolioPicture}

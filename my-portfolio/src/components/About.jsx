@@ -7,7 +7,7 @@ import Skills from './Skills'
 function About() {
     return (
         <section id="about">
-            <div className="about-text">
+            <div className="about-text" data-aos='fade-right'>
                 <h1 className='about-heading'>About Me</h1>
                 <p className='about-paragraph'>
                     Hi, my name is Alan Villagrand. I'm a passionate and driven computer science student
