@@ -5,7 +5,7 @@ function Type() {
         <div className="type-effect">
             <TypeWriter
                 options={{
-                    strings: ["Software Engineer", "CS Student", "Problem Solver"],
+                    strings: ["Fullstack Developer", "CS Student", "Problem Solver", "Collaborator"],
                     autoStart: true,
                     loop: true,
                     delay: 70,

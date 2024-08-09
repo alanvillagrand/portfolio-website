@@ -10,13 +10,15 @@ function About() {
             <div className="about-text" data-aos='fade-right'>
                 <h1 className='about-heading'>About Me</h1>
                 <p className='about-paragraph'>
-                    Hi, my name is Alan Villagrand. I'm a passionate and driven computer science student
+                    Hi, my name is Alan Villagrand. I'm a passionate and driven <span className="highlighted">Computer Science</span> student
                     at <span className="highlighted">Baylor University</span>. I love to create innovative applications and solve complex problems.
-                    With a strong foundation in data strucures, algorithms, and programing technologies, I am eager
-                    to continously learn and excel in software engineering
+                    With a strong foundation in <span className="highlighted">data structures</span>, <span className="highlighted">algorithms</span>,
+                    and <span className="highlighted">programming technologies</span>, I am eager
+                    to continuously learn and excel in software engineering
                 </p>
                 <p className='about-paragraph'>
-                    I am actively seeking new opportunities, especially for the summer of 2025. Feel free to contact me <a href="#contact">here</a>.
+                    I am <span className="highlighted">actively seeking</span> new opportunities, especially for the <span className="highlighted">Summer of 2025</span>.
+                    Feel free to contact me <a href="#contact">here</a>.
                     Apart from my career interests, I love to play soccer, workout, enjoy the outdoors, and meet new people!
                 </p>
                 <div className="links">

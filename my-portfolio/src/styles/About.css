@@ -46,6 +46,10 @@
     transition: all ease-in-out 0.3s;
 }
 
+.highlighted {
+    color: rgba(150, 93, 233, 1);
+}
+
 @media (max-width: 800px) {
     .about-text {
         width: 80%;

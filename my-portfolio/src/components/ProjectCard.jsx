@@ -1,3 +1,4 @@
+import React, { useRef } from 'react'
 import PropTypes from 'prop-types'
 import { FaGithub } from 'react-icons/fa';
 import { CgFileDocument } from 'react-icons/cg'
@@ -8,6 +9,7 @@ function ProjectCard(props) {
     const title = props.title;
     const description = props.description;
     let skillIcons = [];
+    // const imageRef = useRef(null);
     
     if (props.skills) {
         const skills = props.skills;
@@ -17,6 +19,18 @@ function ProjectCard(props) {
     const directToLink = (targetLink) => {
         window.open(targetLink, '_blank');
     };
+
+    // const handleImageClick = () => {
+    //     if (imageRef.current) {
+    //         if (imageRef.current.requestFullscreen) {
+    //             imageRef.current.requestFullscreen();
+    //         } else if (imageRef.current.webkitRequestFullscreen) { /* Safari */
+    //             imageRef.current.webkitRequestFullscreen();
+    //         } else if (imageRef.current.msRequestFullscreen) { /* IE11 */
+    //             imageRef.current.msRequestFullscreen();
+    //         }
+    //     }
+    // };
 
     return(
         <div className="project-card">

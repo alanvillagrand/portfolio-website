@@ -25,11 +25,11 @@ function Projects() {
                                 essential sorting algorithms.`;
     
     const hotelSkills = [JavaIcon, ApacheDerbyIcon];
-    const hotelDescription = `A hotel reservation system developed using Java that provides a
+    const hotelDescription = `A fullstack application developed using Java that provides a
                               user-friendly experience to simplify the hotel booking process. I
-                              learned how to collaborate with other developers and implement a
-                              database schema for efficient storage and management of reservation
-                              data.`;
+                              learned how to collaborate with other developers, create JUnit test
+                              cases, and implement a database with CRUD operations for efficient
+                              management of reservation data.`;
 
     return (
         <section id="projects" data-aos='fade-up'>
