@@ -37,20 +37,12 @@ function Contact() {
         <section id="contact" data-aos='fade-up'>
             <h1 className='contact-heading'>Contact Me</h1>
             <div className="contact-container">
-                <div className="contact-information">
+                {/* <div className="contact-information">
                     <div className="info linked">
                         <img src={LinkedinIcon} alt="" />
                         <p>Alan Villagrand</p>
                     </div>
-                    <div className="info mail">
-                        <img src={MailIcon} alt="" />
-                        <p>alan_villagrand1@baylor.edu</p>
-                    </div>
-                    <div className="info phone">
-                        <img src={PhoneIcon} alt="" />
-                        <p>281-455-7606</p>
-                    </div>
-                </div>
+                </div> */}
                 {submitted ? (
                     <>
                         <h1>Thank You!</h1>
@@ -58,7 +50,6 @@ function Contact() {
                     </>
                 ) : (
                     <>
-                        <h1>Get In Touch</h1>
                         <form onSubmit={onSubmit} className='contact-form'>
                             <div className="input-box">
                                 <label htmlFor='name'>Full Name</label>

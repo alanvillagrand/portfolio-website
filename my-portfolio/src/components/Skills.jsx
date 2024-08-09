@@ -39,7 +39,7 @@ function Skills() {
     ];
 
     return(
-        <div className="skills" data-aos='fade-left'>
+        <div className="skills" data-aos='fade-right'>
             <h1 className='skills-heading'>Techincal Skills</h1>
             <div className="cards">
                 <SkillCard title="Frontend" skills={frontendSkills}/>

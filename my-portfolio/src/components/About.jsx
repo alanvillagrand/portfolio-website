@@ -16,7 +16,7 @@ function About() {
                     to continously learn and excel in software engineering
                 </p>
                 <p className='about-paragraph'>
-                    I am actively seeking new opportunities, especially for the summer of 2025. Feel free to contact me <a href="">here</a>.
+                    I am actively seeking new opportunities, especially for the summer of 2025. Feel free to contact me <a href="#contact">here</a>.
                     Apart from my career interests, I love to play soccer, workout, enjoy the outdoors, and meet new people!
                 </p>
                 <div className="links">
@@ -30,9 +30,6 @@ function About() {
                         <GrMail size={40}/>
                     </a>
                 </div>
-                {/* <button className='resume-button'>
-                    <span className="button-content">Resume<FaFileDownload /></span>
-                </button> */}
             </div>
             <Skills />
         </section>

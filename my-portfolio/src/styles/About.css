@@ -45,3 +45,9 @@
     color: rgba(99, 88, 238, 1);
     transition: all ease-in-out 0.3s;
 }
+
+@media (max-width: 800px) {
+    .about-text {
+        width: 80%;
+    }
+}
