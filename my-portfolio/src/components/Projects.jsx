@@ -3,14 +3,24 @@ import ProjectCard from './ProjectCard'
 import SortingPicture from '../assets/sorting-project.png'
 import HotelPicture from '../assets/hotel-project.png'
 import PortfolioPicture from '../assets/portfolio-project.png'
+import PetAdoptionPicture from '../assets/pet-adoption-project.png'
 import JavaIcon from '../assets/java.svg'
 import ApacheDerbyIcon from '../assets/apache-derby.svg'
 import HtmlIcon from '../assets/html.svg'
 import CssIcon from '../assets/css.svg'
 import JavaScriptIcon from '../assets/javascript.svg'
 import ReactIcon from '../assets/react.svg'
+import MySQLIcon from '../assets/mysql.svg'
+import SpringBootIcon from '../assets/springboot.svg'
 
 function Projects() {
+
+    const petAdoptionSkills = [ReactIcon, JavaIcon, SpringBootIcon, MySQLIcon];
+    const petAdopptionDescription = `A pet adoption web application with functionality to create user and admin accounts,
+                                     adopt pets, and communicate with local adoption centers. Includes a recommendation algorithm
+                                     to personalize pet suggestions. I learned how to lead a team of developers, and create a website
+                                     with secure authentication.`;
+
 
     const portfolioSkills = [HtmlIcon, CssIcon, JavaScriptIcon, ReactIcon];
     const portfolioDescription = `My personal portfolio website created from scratch using ReactJS. Provides
@@ -35,6 +45,11 @@ function Projects() {
         <section id="projects" data-aos='fade-up'>
             <h1 className="projects-heading">My Projects</h1>
             <div className="projects-container">
+                <ProjectCard title="Pet Adoption Website"
+                             skills={petAdoptionSkills}
+                             picture={PetAdoptionPicture}
+                             description={petAdopptionDescription}
+                             githubLink="https://github.com/Baylor-SEII-Projects-Fall-2024/pet-adoption-f24-team-1"/>
                 <ProjectCard picture={PortfolioPicture}
                              title="Personal Portfolio"
                              skills={portfolioSkills}
